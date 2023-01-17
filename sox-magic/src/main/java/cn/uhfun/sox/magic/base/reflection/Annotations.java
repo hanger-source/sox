@@ -1,4 +1,4 @@
-package cn.uhfun.sox.magic.reflection;
+package cn.uhfun.sox.magic.base.reflection;
 
 import sun.reflect.annotation.AnnotationParser;
 

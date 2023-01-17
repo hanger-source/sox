@@ -22,6 +22,7 @@
         <spring.version>5.3.24</spring.version>
         <spring-boot.version>2.7.7</spring-boot.version>
         <guava.version>31.1-jre</guava.version>
+        <fastjson.version>1.2.83</fastjson.version>
     </properties>
 
     <modules>
@@ -50,6 +51,20 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
 
             <dependency>
