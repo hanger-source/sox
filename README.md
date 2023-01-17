@@ -12,6 +12,21 @@
 
 常规传值
 
+```java
+
+@Data
+public static class TestModel {
+    @JSONField(deserializeUsing = FastJsonStringToJavaObjectDeserializer.class)
+    @JsonDeserialize(using = JacksonStringToJavaObjectDeserializer.class)
+    private InnerTestModel innerTest;
+}
+
+@Data
+public static class InnerTestModel {
+    private String test;
+}
+```
+
 ```json
 {
   "innerTest": {
