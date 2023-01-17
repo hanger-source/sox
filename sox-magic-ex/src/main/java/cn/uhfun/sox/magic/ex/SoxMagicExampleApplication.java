@@ -1,4 +1,4 @@
-package cn.uhfun.sox;
+package cn.uhfun.sox.magic.ex;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author uhfun
  */
 @SpringBootApplication
-public class SoxApplication {
+public class SoxMagicExampleApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SoxApplication.class, args);
+        SpringApplication.run(SoxMagicExampleApplication.class, args);
     }
 
 }
