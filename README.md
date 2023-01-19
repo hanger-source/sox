@@ -1,3 +1,21 @@
+### 字符串
+
+#### 根据前后缀拆分子串
+
+- cn.uhfun.sox.magic.base.string.Strings.substringBetween
+
+> org.apache.commons.lang3.StringUtils.substringBetween(java.lang.String, java.lang.String, java.lang.String)
+
+### 异常
+
+#### 获取异常链
+
+- cn.uhfun.sox.magic.base.throwable.Exceptions.getCausalChain
+
+> com.google.common.base.Throwables.getCausalChain
+
+####    
+
 ### 反射
 
 #### 使用属性map 构建注解实例
